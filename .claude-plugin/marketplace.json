@@ -1,0 +1,17 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "szepeviktor-skills",
+    "version": "1.0.0",
+    "description": "WordPress plugin structure guardrails skill based on starter-plugin",
+    "owner": {
+        "name": "szepeviktor"
+    },
+    "plugins": [
+        {
+            "name": "wp-plugin-structure-guardrails",
+            "source": "./skills/wp-plugin-structure-guardrails",
+            "description": "Enforces WordPress plugin structure rules and focuses on anti-pattern avoidance.",
+            "version": "1.0.0"
+        }
+    ]
+}

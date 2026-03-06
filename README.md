@@ -4,7 +4,7 @@ My agent skills for Claude Code, OpenAI Codex and other compatible AI agents.
 
 ## Available skills
 
-###  `wp-plugin-structure-guardrails`
+### `wp-plugin-structure-guardrails`
 
 WordPress plugin structure and bootstrap discipline.
 
@@ -25,5 +25,21 @@ The skill prioritizes these structural guardrails:
 Point Codex at the skill directory:
 
 ```text
-https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
+$skill-installer isntall https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
+```
+
+For Claude Code:
+
+```text
+/plugin marketplace add szepeviktor/skills
+/plugin install wp-plugin-structure-guardrails@szepeviktor-skills
+```
+
+## Refactoring
+
+Use this prompt.
+
+```
+Use the wp-plugin-structure-guardrails skill and refactor this plugin to conform to it.
+Change the code directly, preserve behavior, and summarize the structural violations you fixed.
 ```
