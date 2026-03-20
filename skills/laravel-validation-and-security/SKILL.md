@@ -49,14 +49,14 @@ Use this priority order:
 1. The user's explicit requirements and constraints
 2. Repository-level guidance in `AGENTS.md`
 3. The actual repository structure and installed packages
-4. The official Laravel documentation in `vendor-docs/laravel-docs/`
+4. The official Laravel documentation in `references/laravel-docs/`
 5. Common ecosystem practice only when it does not conflict with Laravel conventions
 
 ## Canonical Laravel documentation
 
 Use the Laravel docs in:
 
-`vendor-docs/laravel-docs/`
+`references/laravel-docs/`
 
 Use `documentation.md` as the topic index, and prefer the relevant validation and security docs before answering.
 
