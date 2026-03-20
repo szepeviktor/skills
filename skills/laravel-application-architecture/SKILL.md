@@ -199,11 +199,16 @@ Use facades when:
 - the repository already uses them consistently
 - testing and readability remain clear
 
+When using facades:
+- import the facade class explicitly rather than relying on Laravel's global class aliases
+- prefer explicit imports such as `use Illuminate\Support\Facades\Cache;` over global alias usage such as `\Cache`
+
 Do not:
 - invent facades
 - assume a facade exists when it does not
 - argue that facades are always bad because of generic framework opinions
 - force facades everywhere when dependency injection would be clearer
+- rely on global facade aliases when an explicit imported facade class would be clearer
 
 Be practical, not ideological.
 
