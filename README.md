@@ -4,6 +4,27 @@ My agent skills for Claude Code, OpenAI Codex and other compatible AI agents.
 
 ## Available skills
 
+### `laravel-principal-engineer`
+
+Front-door Laravel guidance for broad, ambiguous, or cross-cutting work.
+
+Use it for:
+
+- general Laravel development
+- vague requests where the Laravel subsystem is not obvious yet
+- code review and refactoring
+- architecture decisions
+- feature planning
+- situations where the user does not know Laravel terminology
+
+The skill prioritizes these guardrails:
+
+- prefer official Laravel conventions over generic PHP patterns
+- map the request to the correct Laravel subsystem
+- choose the simplest Laravel-native solution first
+- avoid invented Laravel APIs and assumptions
+- use narrower Laravel skills when a specific subsystem becomes clear
+
 ### `wp-plugin-structure-guardrails`
 
 WordPress plugin structure and bootstrap discipline.
@@ -25,6 +46,7 @@ The skill prioritizes these structural guardrails:
 Point Codex at the skill directory:
 
 ```text
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-principal-engineer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
 ```
 
@@ -32,6 +54,7 @@ For Claude Code:
 
 ```text
 /plugin marketplace add szepeviktor/skills
+/plugin install laravel-principal-engineer@szepeviktor-skills
 /plugin install wp-plugin-structure-guardrails@szepeviktor-skills
 ```
 
