@@ -2,7 +2,7 @@
     "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "szepeviktor-skills",
     "version": "1.0.0",
-    "description": "WordPress plugin structure guardrails skill based on starter-plugin",
+    "description": "Laravel and WordPress skills",
     "owner": {
         "name": "szepeviktor"
     },
@@ -11,6 +11,48 @@
             "name": "wp-plugin-structure-guardrails",
             "source": "./skills/wp-plugin-structure-guardrails",
             "description": "Enforces WordPress plugin structure rules and focuses on anti-pattern avoidance.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-principal-engineer",
+            "source": "./skills/laravel-principal-engineer",
+            "description": "General Laravel expert and front-door skill.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-http-interface",
+            "source": "./skills/laravel-http-interface",
+            "description": "Laravel HTTP layer specialist.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-validation-and-security",
+            "source": "./skills/laravel-validation-and-security",
+            "description": "Laravel validation and security specialist.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-database-and-eloquent",
+            "source": "./skills/laravel-database-and-eloquent",
+            "description": "Laravel database and Eloquent specialist.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-testing-and-quality",
+            "source": "./skills/laravel-testing-and-quality",
+            "description": "Laravel testing and quality specialist.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-application-architecture",
+            "source": "./skills/laravel-application-architecture",
+            "description": "Laravel architecture specialist.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "laravel-async-and-integrations",
+            "source": "./skills/laravel-async-and-integrations",
+            "description": "Laravel async and integrations specialist.",
             "version": "1.0.0"
         }
     ]

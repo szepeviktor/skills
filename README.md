@@ -25,7 +25,7 @@ The skill prioritizes these structural guardrails:
 Point Codex at the skill directory:
 
 ```text
-$skill-installer isntall https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
 ```
 
 For Claude Code:
