@@ -25,6 +25,11 @@ The skill prioritizes these guardrails:
 - avoid invented Laravel APIs and assumptions
 - use narrower Laravel skills when a specific subsystem becomes clear
 
+### `larastan-preflight-reviewer`
+
+Review Laravel Eloquent model `casts()` methods, `Attribute` accessor/mutator methods,
+and relationship methods before Larastan/PHPStan runs.
+
 ### `wp-plugin-structure-guardrails`
 
 WordPress plugin structure and bootstrap discipline.
