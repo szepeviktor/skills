@@ -52,6 +52,7 @@ Point Codex at the skill directory:
 
 ```text
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-principal-engineer
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/larastan-preflight-reviewer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
 ```
 
@@ -60,6 +61,7 @@ For Claude Code:
 ```text
 /plugin marketplace add szepeviktor/skills
 /plugin install laravel-principal-engineer@szepeviktor-skills
+/plugin install larastan-preflight-reviewer@szepeviktor-skills
 /plugin install wp-plugin-structure-guardrails@szepeviktor-skills
 ```
 

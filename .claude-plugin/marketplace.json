@@ -38,6 +38,12 @@
             "version": "1.0.0"
         },
         {
+            "name": "larastan-preflight-reviewer",
+            "source": "./skills/larastan-preflight-reviewer",
+            "description": "Preflight review for Laravel model casts, accessors, mutators, and relationships before Larastan runs.",
+            "version": "1.0.0"
+        },
+        {
             "name": "laravel-testing-and-quality",
             "source": "./skills/laravel-testing-and-quality",
             "description": "Laravel testing and quality specialist.",
