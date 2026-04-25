@@ -2,11 +2,17 @@
     "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "szepeviktor-skills",
     "version": "1.0.0",
-    "description": "Laravel and WordPress skills",
+    "description": "Business review, Laravel, and WordPress skills",
     "owner": {
         "name": "szepeviktor"
     },
     "plugins": [
+        {
+            "name": "business-owner-review",
+            "source": "./skills/business-owner-review",
+            "description": "Business owner review for revenue, trust, conversion, support burden, and operational risk.",
+            "version": "1.0.0"
+        },
         {
             "name": "wp-plugin-structure-guardrails",
             "source": "./skills/wp-plugin-structure-guardrails",
