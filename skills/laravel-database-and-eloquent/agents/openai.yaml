@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Database and Eloquent"
+  short_description: "Laravel database and Eloquent guidance"
+  default_prompt: "Use $laravel-database-and-eloquent to implement this Laravel database or Eloquent change."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Plugin Structure Guardrails"
+  short_description: "WordPress plugin structure guardrails"
+  default_prompt: "Use $wp-plugin-structure-guardrails to review or refactor this WordPress plugin structure."

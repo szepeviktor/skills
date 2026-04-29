@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Principal Engineer"
+  short_description: "Laravel architecture and review guidance"
+  default_prompt: "Use $laravel-principal-engineer to plan this Laravel change and choose the right subsystem."

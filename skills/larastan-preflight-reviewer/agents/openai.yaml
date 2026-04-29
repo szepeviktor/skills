@@ -1,0 +1,4 @@
+interface:
+  display_name: "Larastan Preflight Reviewer"
+  short_description: "Larastan model typing preflight review"
+  default_prompt: "Use $larastan-preflight-reviewer to audit these Laravel model and resource types before Larastan runs."

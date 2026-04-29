@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Async and Integrations"
+  short_description: "Laravel async and integration guidance"
+  default_prompt: "Use $laravel-async-and-integrations to design this Laravel async or integration workflow."

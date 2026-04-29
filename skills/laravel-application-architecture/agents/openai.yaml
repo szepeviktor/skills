@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Application Architecture"
+  short_description: "Laravel application architecture guidance"
+  default_prompt: "Use $laravel-application-architecture to decide where this Laravel code belongs."

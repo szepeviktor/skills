@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Owner Review"
+  short_description: "Business risk review for web apps"
+  default_prompt: "Use $business-owner-review to review this app from a business owner perspective."

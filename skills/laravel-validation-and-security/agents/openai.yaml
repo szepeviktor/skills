@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Validation and Security"
+  short_description: "Laravel validation and security guidance"
+  default_prompt: "Use $laravel-validation-and-security to validate and secure this Laravel flow."

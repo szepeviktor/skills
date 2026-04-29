@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Testing and Quality"
+  short_description: "Laravel testing and quality guidance"
+  default_prompt: "Use $laravel-testing-and-quality to design or fix tests for this Laravel behavior."

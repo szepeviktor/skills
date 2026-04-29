@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel HTTP Interface"
+  short_description: "Laravel HTTP layer guidance"
+  default_prompt: "Use $laravel-http-interface to implement this Laravel HTTP-layer change."
