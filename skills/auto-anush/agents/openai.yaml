@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoAnush"
+  short_description: "Checkout checker for ecommerce flows"
+  default_prompt: "Use $auto-anush to audit this store's checkout flow and surface state-dependent checkout errors."

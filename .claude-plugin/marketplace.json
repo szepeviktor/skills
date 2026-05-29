@@ -2,7 +2,7 @@
     "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "szepeviktor-skills",
     "version": "1.0.0",
-    "description": "Business review, Laravel, and WordPress skills",
+    "description": "Business review, ecommerce checkout, Laravel, and WordPress skills",
     "owner": {
         "name": "szepeviktor"
     },
@@ -11,6 +11,12 @@
             "name": "business-owner-review",
             "source": "./skills/business-owner-review",
             "description": "Business owner review for revenue, trust, conversion, support burden, and operational risk.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "auto-anush",
+            "source": "./skills/auto-anush",
+            "description": "Audits ecommerce cart and checkout flows for state-dependent pricing, tax, shipping, and payment defects.",
             "version": "1.0.0"
         },
         {

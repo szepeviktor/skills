@@ -18,6 +18,18 @@ It focuses on:
 - retention and growth opportunities
 - business-facing language and tone
 
+### `auto-anush`
+
+Universal ecommerce checkout checker for state-dependent checkout defects.
+
+Use it for:
+
+- cart and checkout flow audits in the browser
+- reproducing price, VAT, shipping, and payment recalculation bugs
+- checking whether field changes incorrectly alter totals or methods
+- capturing checkout snapshots and diffs across state mutations
+- correlating checkout regressions with browser console errors
+
 ### `laravel-principal-engineer`
 
 Front-door Laravel guidance for broad, ambiguous, or cross-cutting work.
@@ -101,6 +113,7 @@ Point Codex at the skill directory:
 
 ```text
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/business-owner-review
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/auto-anush
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-principal-engineer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/larastan-preflight-reviewer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-http-interface
@@ -117,6 +130,7 @@ For Claude Code:
 ```text
 /plugin marketplace add szepeviktor/skills
 /plugin install business-owner-review@szepeviktor-skills
+/plugin install auto-anush@szepeviktor-skills
 /plugin install laravel-principal-engineer@szepeviktor-skills
 /plugin install larastan-preflight-reviewer@szepeviktor-skills
 /plugin install laravel-http-interface@szepeviktor-skills
