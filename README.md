@@ -91,6 +91,20 @@ Laravel testing guidance for feature tests, unit tests, HTTP tests, database
 testing, factories, mocking, fakes, assertions, regression coverage, and test
 design.
 
+### `wp-plugin-compatibility-check`
+
+WordPress plugin compatibility auditing across core, PHP, themes, WooCommerce,
+multilingual plugins, caching plugins, builders, and other active
+dependencies.
+
+It focuses on:
+
+- minimum version requirements
+- changelog-based compatibility evidence
+- plugin ecosystem-specific compatibility signals
+- WooCommerce template overrides in custom themes
+- real interoperability risk instead of metadata-only assumptions
+
 ### `wp-plugin-structure-guardrails`
 
 WordPress plugin structure and bootstrap discipline.
@@ -122,6 +136,7 @@ $skill-installer install https://github.com/szepeviktor/skills/tree/master/skill
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-application-architecture
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-async-and-integrations
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-testing-and-quality
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-compatibility-check
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
 ```
 
@@ -139,6 +154,7 @@ For Claude Code:
 /plugin install laravel-application-architecture@szepeviktor-skills
 /plugin install laravel-async-and-integrations@szepeviktor-skills
 /plugin install laravel-testing-and-quality@szepeviktor-skills
+/plugin install wp-plugin-compatibility-check@szepeviktor-skills
 /plugin install wp-plugin-structure-guardrails@szepeviktor-skills
 ```
 

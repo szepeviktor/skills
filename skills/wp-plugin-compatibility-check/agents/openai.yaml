@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Plugin Compatibility Check"
+  short_description: "Audit WordPress plugin compatibility"
+  default_prompt: "Use $wp-plugin-compatibility-check to audit plugin compatibility, changelogs, and integration risks in this WordPress site."

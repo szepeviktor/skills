@@ -20,6 +20,12 @@
             "version": "1.0.0"
         },
         {
+            "name": "wp-plugin-compatibility-check",
+            "source": "./skills/wp-plugin-compatibility-check",
+            "description": "Audits WordPress plugin compatibility across core, PHP, themes, WooCommerce, and active plugin integrations.",
+            "version": "1.0.0"
+        },
+        {
             "name": "wp-plugin-structure-guardrails",
             "source": "./skills/wp-plugin-structure-guardrails",
             "description": "Enforces WordPress plugin structure rules and focuses on anti-pattern avoidance.",
