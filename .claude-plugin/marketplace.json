@@ -26,6 +26,12 @@
             "version": "1.0.0"
         },
         {
+            "name": "wp-plugin-woes-audit",
+            "source": "./skills/wp-plugin-woes-audit",
+            "description": "Audits intrusive WordPress admin behavior, tracking, licensing failures, notices, and add-on conflicts.",
+            "version": "1.0.0"
+        },
+        {
             "name": "wp-plugin-structure-guardrails",
             "source": "./skills/wp-plugin-structure-guardrails",
             "description": "Enforces WordPress plugin structure rules and focuses on anti-pattern avoidance.",

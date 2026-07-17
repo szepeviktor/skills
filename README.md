@@ -105,6 +105,19 @@ It focuses on:
 - WooCommerce template overrides in custom themes
 - real interoperability risk instead of metadata-only assumptions
 
+### `wp-plugin-woes-audit`
+
+Audit WordPress plugins for intrusive or unnecessary administrator behavior
+and operational risk.
+
+It focuses on:
+
+- onboarding wizards, advertisements, promotions, and feedback prompts
+- remote tracking, consent, payloads, and retry behavior
+- admin menu clutter, notices, and changelog discoverability
+- license-validation failures and vendor-service dependencies
+- core, Pro, add-on, and integration version conflicts
+
 ### `wp-plugin-structure-guardrails`
 
 WordPress plugin structure and bootstrap discipline.
@@ -137,6 +150,7 @@ $skill-installer install https://github.com/szepeviktor/skills/tree/master/skill
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-async-and-integrations
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-testing-and-quality
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-compatibility-check
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-woes-audit
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
 ```
 
@@ -155,6 +169,7 @@ For Claude Code:
 /plugin install laravel-async-and-integrations@szepeviktor-skills
 /plugin install laravel-testing-and-quality@szepeviktor-skills
 /plugin install wp-plugin-compatibility-check@szepeviktor-skills
+/plugin install wp-plugin-woes-audit@szepeviktor-skills
 /plugin install wp-plugin-structure-guardrails@szepeviktor-skills
 ```
 

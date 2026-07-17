@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Plugin Woes Audit"
+  short_description: "Audit intrusive WordPress plugin behavior"
+  default_prompt: "Use $wp-plugin-woes-audit to inspect this WordPress plugin for intrusive admin behavior, tracking, licensing, notices, and add-on conflicts."
