@@ -1,0 +1,4 @@
+interface:
+  display_name: "Typos Triage"
+  short_description: "Context-aware typos config and spelling fixes"
+  default_prompt: "Use $typos-triage to configure typos, run it, and fix spelling findings safely."

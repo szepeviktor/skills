@@ -91,6 +91,18 @@ Laravel testing guidance for feature tests, unit tests, HTTP tests, database
 testing, factories, mocking, fakes, assertions, regression coverage, and test
 design.
 
+### `typos-triage`
+
+Context-aware `typos` setup and spelling triage.
+
+Use it for:
+
+- creating or refining `.typos.toml`
+- checking hidden dotfiles while excluding generated, vendored, or copied code
+- running `typos` through the repository's normal tool environment
+- fixing real typos with context instead of blind replacement
+- placing false positives in the narrowest suitable `typos` setting
+
 ### `wp-plugin-compatibility-check`
 
 WordPress plugin compatibility auditing across core, PHP, themes, WooCommerce,
@@ -149,6 +161,7 @@ $skill-installer install https://github.com/szepeviktor/skills/tree/master/skill
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-application-architecture
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-async-and-integrations
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-testing-and-quality
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/typos-triage
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-compatibility-check
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-woes-audit
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/wp-plugin-structure-guardrails
@@ -168,6 +181,7 @@ For Claude Code:
 /plugin install laravel-application-architecture@szepeviktor-skills
 /plugin install laravel-async-and-integrations@szepeviktor-skills
 /plugin install laravel-testing-and-quality@szepeviktor-skills
+/plugin install typos-triage@szepeviktor-skills
 /plugin install wp-plugin-compatibility-check@szepeviktor-skills
 /plugin install wp-plugin-woes-audit@szepeviktor-skills
 /plugin install wp-plugin-structure-guardrails@szepeviktor-skills
