@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consent Management Audit"
+  short_description: "Audit CMP and tracking consent behavior"
+  default_prompt: "Use $consent-management-audit to audit this site's consent management behavior and report reproducible consent defects."
