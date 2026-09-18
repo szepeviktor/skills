@@ -14,6 +14,7 @@ Prefer evidence from the browser over assumptions from source code. Inspect the 
 Follow this path before expanding into deeper vendor or protocol checks:
 
 - start from a clean profile or explicitly clear the tested origin's cookies, localStorage, sessionStorage, and relevant cacheable consent records
+- inspect the CMP's declared necessary cookies or services, then compare that list with the cookies and storage entries present before any consent choice
 - load the page before any consent choice, then capture visible consent UI, browser storage, network requests, and console messages
 - choose reject all or necessary-only when available, then capture storage and network behavior
 - reload after reject or necessary-only and confirm whether blocked services remain blocked and non-essential cookies stay absent
@@ -69,6 +70,8 @@ Inspect browser storage before consent, after consent, after revocation, and aft
 - consent records, vendor lists, category settings, and timestamp/version data
 
 Check that non-essential vendor cookies or storage entries are absent before consent where required, created only after the appropriate opt-in, and removed or no longer refreshed after revocation. Note cookie domain, path, expiry, Secure, SameSite, and third-party context issues when they affect consent behavior.
+
+When the CMP lists necessary cookies or necessary services, record the declared names, purposes, and durations, then compare them against the actual browser cookies and storage entries before consent and after reject or necessary-only. Treat undeclared or unexplained storage as suspicious unless it is clearly required for essential site functions.
 
 ## Network And Console Audit
 
