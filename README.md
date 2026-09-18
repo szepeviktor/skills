@@ -30,6 +30,20 @@ Use it for:
 - capturing checkout snapshots and diffs across state mutations
 - correlating checkout regressions with browser console errors
 
+### `consent-management-audit`
+
+Web consent management and CMP audit for cookie banners, tracking services,
+stored preferences, network requests, console errors, multilingual consent text,
+and broken consent modals.
+
+Use it for:
+
+- before-consent, accept, reject, revoke, and reload behavior checks
+- service-by-service tracking and consent enforcement review
+- cookie, localStorage, sessionStorage, IndexedDB, network, and console evidence
+- multilingual consent message and policy-link checks
+- desktop and mobile consent modal integrity
+
 ### `laravel-principal-engineer`
 
 Front-door Laravel guidance for broad, ambiguous, or cross-cutting work.
@@ -153,6 +167,7 @@ Point Codex at the skill directory:
 ```text
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/business-owner-review
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/auto-anush
+$skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/consent-management-audit
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-principal-engineer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/larastan-preflight-reviewer
 $skill-installer install https://github.com/szepeviktor/skills/tree/master/skills/laravel-http-interface
@@ -173,6 +188,7 @@ For Claude Code:
 /plugin marketplace add szepeviktor/skills
 /plugin install business-owner-review@szepeviktor-skills
 /plugin install auto-anush@szepeviktor-skills
+/plugin install consent-management-audit@szepeviktor-skills
 /plugin install laravel-principal-engineer@szepeviktor-skills
 /plugin install larastan-preflight-reviewer@szepeviktor-skills
 /plugin install laravel-http-interface@szepeviktor-skills

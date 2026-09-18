@@ -20,6 +20,12 @@
             "version": "1.0.0"
         },
         {
+            "name": "consent-management-audit",
+            "source": "./skills/consent-management-audit",
+            "description": "Audits CMPs, cookie banners, tracking consent behavior, storage, network evidence, multilingual text, and modal integrity.",
+            "version": "1.0.0"
+        },
+        {
             "name": "wp-plugin-compatibility-check",
             "source": "./skills/wp-plugin-compatibility-check",
             "description": "Audits WordPress plugin compatibility across core, PHP, themes, WooCommerce, and active plugin integrations.",
